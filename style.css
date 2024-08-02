@@ -1,0 +1,14 @@
+main {
+    margin: 0 auto;
+    text-align: center;
+    border-style: solid;
+    max-width: 500px;
+}
+
+body {
+    margin: 25px;
+}
+
+#slider {
+    margin-bottom: 20px;
+}

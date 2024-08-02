@@ -1,8 +1,8 @@
 const slider = document.querySelector("#slider");
 const out = document.querySelector("#out");
-slider.addEventListener("input", Print_val);
+slider.addEventListener("input", print_val);
 
-function Print_val()
+function print_val()
 {   
     let value = slider.value;
     document.querySelector("#out").innerHTML = value;

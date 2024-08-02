@@ -4,17 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Price range slider</title>
-    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
         <h1>Price range slider</h1>
+
+        <input  type="range" value="0" id="slider">
+
+        <div id="buttons">
         <label>min:</label>
         <input type="text" id="min"/>
         <label>max:</label>
         <input type="text" id="max"/>
-
-        <input  type="range" value="0" id="slider">
+        </div>
+       
         <p>Value: <span id="out">0</span></p>
     </main>
 
